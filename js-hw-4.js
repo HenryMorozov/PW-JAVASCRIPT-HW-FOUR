@@ -19,7 +19,7 @@ let max = 21;
 for(let i = 0; i < crux;i++) {
     let one = random(max)
     let two = random(max)
-    let example = Math.floor( Math.random() * 2 + 1)
+    let example = Math.floor( Math.random() * 4 + 1)
     
     if (example == 1) {
         answer = one + two;
