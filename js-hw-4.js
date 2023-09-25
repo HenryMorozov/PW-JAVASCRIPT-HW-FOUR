@@ -1,6 +1,6 @@
-nick = prompt("Please enter your name:");
-num = +prompt("Enter your year of birth:");
-dat = +prompt("Enter current year:");
+nick = prompt('Please enter your name: ');
+num = +prompt('Enter your year of birth: ');
+dat = +prompt('Enter current year: ');
 
 let info = function (num,dat) {
     let res = dat - num 
@@ -23,16 +23,16 @@ for(let i = 0; i < crux;i++) {
     
     if (example == 1) {
         answer = one + two;
-        question = prompt("Give the correct answer:" + one + "+" + two + "=");
+        question = prompt('Give the correct answer: ' + one + ' + ' + two + ' = ');
     }else if (example == 2) {
         answer = one - two;
-        question = prompt("Give the correct answer:" + one + "-" + two + "=");
+        question = prompt('Give the correct answer: ' + one + ' - ' + two + ' = ');
     }else if (example == 3) {
         answer = one * two;
-        question = prompt("Give the correct answer:" + one + "*" + two + "=");
+        question = prompt('Give the correct answer: ' + one + ' * ' + two + ' = ');
     }else if (example == 4) {
         answer = one / two;
-        question = prompt("Give the correct answer:" + one + "/" + two + "=");
+        question = prompt('Give the correct answer: ' + one + ' / ' + two + ' = ');
     }
     if (answer == question) {
         console.log('Your answer is correct: - ' + answer);
