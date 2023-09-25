@@ -1,10 +1,10 @@
-nick = prompt("Введите имя:");
-num = +prompt("Введите свой год рождения:");
-dat = +prompt("Введите актуальный год:");
+nick = prompt("Please enter your name:");
+num = +prompt("Enter your year of birth:");
+dat = +prompt("Enter current year:");
 
 let info = function (num,dat) {
     let res = dat - num 
-    return(nick + ', ' + 'Ваш возраст: ' + res)
+    return(nick + ', ' + 'Your age: ' + res)
 }
 console.log(info(num,dat));
 
